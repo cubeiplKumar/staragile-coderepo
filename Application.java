@@ -22,6 +22,16 @@ class Main {
       e.getStackTrace();
     }
   }
+
+  #feature302 changes made by Pratyush on 16-june-2021
+  public static void sampleMethod(int a, int b) throws ArithmeticException{
+        System.out.println("Hello, this is sample method");
+        int c = a/b; //  int c = 4/2 which gets calculated as 2 
+        System.out.println("c:"+c); // c: 2
+   }
+
+}
+
   #new code changes for feature301 by Arun on 15-june-2021
   method1
 // reads all data from input.txt
@@ -31,3 +41,4 @@ class Main {
       destFile.write(array);
       System.out.println("The input.txt file is copied to newFile.");
 	  }
+
